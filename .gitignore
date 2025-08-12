@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+
+# Watchman
+.watchmanconfig
+
+# Metro bundler
+.expo
+.expo-shared
+
+# Logs
+*.log
+logs
+*.tmp
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.apk
+*.aar
+*.dex
+*.class
+*.iml
+*.keystore
+local.properties
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+
+# Xcode project user data
+**/*.pbxuser
+**/*.mode1v3
+**/*.mode2v3
+**/*.perspectivev3
+
+# VSCode
+.vscode/
+
+# Bundle / Generated files
+.bundle/
+vendor/
+tmp/
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+coverage/
