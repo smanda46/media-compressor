@@ -1,22 +1,21 @@
-# 📱 Media Compressor
+# Media Compressor
 
-Media Compressor is a clean, modern React Native app for iOS that lets you **pick, compress, and save or upload** photos and videos with ease.  
-It works seamlessly with both **local media** and **iCloud/Files**, generates **video thumbnails**, and saves compressed files directly to your Photos app.
-
----
-
-## 🚀 Features
-- 🎯 Pick media from **Photos** or **iCloud/Files**
-- 📦 Compress both **images** and **videos** without losing quality
-- 💾 Save compressed media directly to the Photos library
-- ☁️ Optional server upload (fully configurable)
-- ☑️ Correctly handles iCloud `ph://` assets
-- 📸 Auto-generates thumbnails for videos
-- 🖥 Tested on **iOS Simulator** and real iPhone devices
+Media Compressor is a clean, modern React Native app for iOS that lets you **pick, compress, and save or upload** photos and videos with ease. It works seamlessly with both **local media** and **iCloud/Files**, generates **video thumbnails**, and saves compressed files directly to your Photos app.
 
 ---
 
-## 📦 Installation
+## Features
+- Pick media from **Photos** or **iCloud/Files**
+- Compress both **images** and **videos** without losing quality
+- Save compressed media directly to the Photos library
+- Optional server upload (fully configurable)
+- Correctly handles iCloud `ph://` assets
+- Auto-generates thumbnails for videos
+- Tested on **iOS Simulator** and real iPhone devices
+
+---
+
+## Installation
 ```bash
 git clone https://github.com/smanda46/media-compressor.git
 cd media-compressor
@@ -26,7 +25,7 @@ npx pod-install
 
 ---
 
-## ⚙️ iOS Setup
+## iOS Setup
 
 Add these permissions to `ios/MediaCompressor/Info.plist`:
 
@@ -39,7 +38,7 @@ Add these permissions to `ios/MediaCompressor/Info.plist`:
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 ```bash
 npx react-native run-ios
@@ -47,7 +46,7 @@ npx react-native run-ios
 
 ---
 
-## 📌 Notes
+## Notes
 
 * The default upload URL is set to `http://localhost:3000/upload`.
   Update `UPLOAD_URL` in `App.tsx` if you want to send files to a different server.
@@ -56,7 +55,7 @@ npx react-native run-ios
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **React Native** for cross-platform UI
 * **react-native-image-picker** for media selection
